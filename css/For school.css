@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #000000;
+    font-family: 'Fredoka One', cursive;
+}
+.container{
+    display: flex;
+    position: sticky;
+    top: 0;
+    background: white;
+}
+
+.codingworld-logo img{
+    width: 55px;
+    margin: 10px 0;  
+}
+.logo{
+    width: 6%;
+}
+
+.navlist{
+    width: 70%;
+}
+
+.navlist ul{
+    list-style-type: none;
+    overflow: hidden;
+    margin-top: 25px;
+}
+
+ul a{
+    font-family: 'Fredoka One', cursive;
+    font-size: 20px;
+}
+li{
+    display: inline;
+    
+}
+.search{
+    width: 15%;
+    
+}
+.search input{
+    
+    border-radius: 10px;
+    height: 20px;
+    width: 150px;
+    padding-left: 10px;
+    margin-top: 25px;
+}
+.search-img{
+    margin:0;
+    padding: 0;
+}
+.search-img img{
+    width: 25px;
+    margin-top: 25px;
+}
+a {
+    color: #000000;
+    text-decoration: none;
+    margin: 10px 20px;
+}
+
+a:hover {
+    color: #727272;
+}
+.button {
+    background: rgb(9, 240, 47);
+    background: linear-gradient(0deg, rgb(82, 215, 29) 0%, rgb(88, 200, 241) 100%);
+    border: none;
+    font-size: 20px;
+    font-family: 'Fredoka One', cursive;
+    border-radius: 10px;
+
+}
+
+.button:before {
+    height: 0%;
+    width: -2px;
+}
+
+.button:hover {
+    box-shadow: 4px 4px 6px 0 rgba(0, 0, 0, 0.5),
+        -4px -4px 6px 0 rgba(0, 0, 0, 0.5),
+        inset -4px -4px 6px 0 rgba(0, 0, 0, 0.2),
+        inset 4px 4px 6px 0 rgba(0, 0, 0, 0.4);
+}
